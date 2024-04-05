@@ -1,0 +1,9 @@
+pages:
+stage: pages
+script:
+- echo 'dream house'
+artifacts:
+paths:
+- public
+only:
+- master
